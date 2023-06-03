@@ -53,6 +53,7 @@
 }
 
 .main-box button{
+    cursor: pointer;
     padding: 10px;
     width: 300px;
     border-radius: 7px;
