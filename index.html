@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400;500&display=swap');
+        </style>
+    <title>calculadora IMC</title>
+</head>
+<body>
+    <main class="container">
+      <div class="main-box">
+        <div class="weight-logo">
+            <i class="fa-solid fa-scale-balanced"></i>
+        </div>
+        <div class="header">
+            <h1>Calculadora de IMC</h1>
+        </div>
+        <div class="input-box">
+            <div class="input-weight">
+                <label> Peso em kg</label>
+                <i class="fa-solid fa-weight-hanging"></i> 
+                <input type="text" onkeypress="return somenteNumeros(event)" maxlength="3" placeholder="Insira seu peso(kg)"  id="peso"> 
+            </div>
+            <div class="input-height">
+                <label> Altura em Metros</label>
+                <i class="fa-solid fa-ruler"></i> 
+                <input type="text" onkeypress="return somenteNumeros(event)" placeholder="Insira sua altura(M)" maxlength="4" id="input-altura">
+            </div>
+        </div>
+        <div class="hidden">
+            <h1 id="resultado"></h1>
+            <h4 id="descricao"></h4>
+        </div>
+        <button onclick="calculaImc()">Calcular</button>
+      </div>  
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

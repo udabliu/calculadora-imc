@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Geologica', sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-color: #121214;
+    color: #fff;
+}
+
+.main-box{
+    border-radius: 10px;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: #242424;
+    height: fit-content;
+}
+
+.header {
+    text-decoration: underline #4ebd57;
+    text-underline-position: under;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.input-box input {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 37px;
+    border-radius: 7px;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.main-box button{
+    padding: 10px;
+    width: 300px;
+    border-radius: 7px;
+    color: #fff;
+    background-image: linear-gradient(45deg,#125c18d7,#98fda0);
+}
+
+.main-box button:hover{
+    transform: scale(1.02);
+}
+
+
+.weight-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+
