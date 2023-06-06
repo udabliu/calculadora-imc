@@ -10,19 +10,19 @@ function calculaImc(){
 
     
     if(imc < 18.5){
-        descricao.innerHTML = "ta no crack"
+        descricao.innerHTML = "Magreza"
     }
     else if(imc >= 18.5 & imc < 25){
-        descricao.innerHTML = "ta normal"
+        descricao.innerHTML = "Normal"
     }
     else if(imc >= 25 & imc < 30){
-        descricao.innerHTML = "gordim"
+        descricao.innerHTML = "Sobrepeso"
     }
     else if(imc >= 30 & imc < 40){
-        descricao.innerHTML = "obesidade"
+        descricao.innerHTML = "Obesidade"
     }
     else if(imc > 40){
-        descricao.innerHTML = "obesidade grau 89"
+        descricao.innerHTML = "obesidade grave"
     }
 }
 
