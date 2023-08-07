@@ -74,3 +74,24 @@
 }
 
 
+@media screen and (max-width: 991px){
+
+    .container {
+        align-items: center;
+        text-align: center;
+    }
+
+    .main-box {
+        width: 21rem;
+    }
+
+    .input-box input,
+    .main-box button {
+        align-items: center;
+        text-align: center;
+        width: 13rem;
+    }
+
+    
+}
+
